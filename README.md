@@ -59,6 +59,22 @@ To explore the UI (may require code adjustments):
 streamlit run app.py
 ```
 
+## Docker Deployment
+
+You can containerize the application for easy deployment.
+
+1.  **Build the Docker image:**
+    ```bash
+    docker build -t eyeaid .
+    ```
+
+2.  **Run the container:**
+    ```bash
+    docker run -p 8501:8501 eyeaid
+    ```
+
+    The Streamlit app will be available at `http://localhost:8501`.
+
 ## Project Structure
 
 -   `agents/`: Contains the logic for each specific agent (Intake, Screening, Triage, etc.).
