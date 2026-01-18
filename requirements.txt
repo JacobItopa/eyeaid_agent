@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+requests
+python-dotenv
+huggingface_hub
+torch
+transformers
+accelerate
+bitsandbytes
+Pillow
